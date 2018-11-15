@@ -33,11 +33,11 @@ At this stage, we are testing and exporting the ENTIRE model (not state dict).
 
 3. View the results in  `/results/edges2bracelets_pix2pix/test_latest/images`
 
-4. The model will be exported to FINAL_MODELS
+4. The model will be exported to `exported_models`
 
 ## 3b. Test the model with backend code
 
-1. Copy the model from FINAL_MODELS to the input_model folder
+1. Copy the model from `exported_models` to the input_model folder
 2. Edit the test.py to correspond with model name + image input name
 3. See results in results folder.
 
